@@ -42,6 +42,10 @@
   justify-content: space-between;
   align-items: center;
 }
+.wrapper-1 .navigation-bar .navigation-menu a {
+  color: black;
+  text-decoration: none;
+}
 .wrapper-1 .navigation-bar .navigation-menu .menu-item {
   font-size: 1.3vmax;
   cursor: pointer;
@@ -87,7 +91,13 @@
   cursor: pointer;
   background-color: white;
   border: none;
+  transition: 150ms ease-in-out;
   box-shadow: 0.6vmax 0.4vmax 0px 1px rgb(236, 171, 237);
+}
+.wrapper-1 .wrapper-1-content .wrapper-1-buttons .wrapper-1-button:hover {
+  background-color: #ebabed;
+  transition: 150ms ease-in-out;
+  box-shadow: unset;
 }
 
 .wrapper-2 {
@@ -130,10 +140,16 @@
   margin-top: 5vmax;
   padding: 0.6vmax 2.5vmax;
   font-size: 1.2vmax;
+  transition: 200ms ease-in-out;
   border: 3px solid #ebabed;
   cursor: pointer;
   background-color: white;
   box-shadow: 0.8vmax 0.4vmax 0px 1px rgb(236, 171, 237);
+}
+.wrapper-2 .wrapper-2-content .wrapper-2-button:hover {
+  background-color: #ebabed;
+  transition: 200ms ease-in-out;
+  box-shadow: unset;
 }
 
 .wrapper-3 {
@@ -230,8 +246,15 @@
   font-size: 1.2vmax;
   border: 3px solid black;
   cursor: pointer;
+  transition: 200ms ease-in-out;
   background-color: white;
   box-shadow: 0.8vmax 0.4vmax 0px 1px rgb(0, 0, 0);
+}
+.wrapper-4 .wrapper-4-button:hover {
+  color: white;
+  background-color: black;
+  transition: 200ms ease-in-out;
+  box-shadow: unset;
 }
 
 .wrapper-5 {
@@ -273,8 +296,15 @@
   font-size: 1.2vmax;
   border: 3px solid black;
   cursor: pointer;
+  transition: 200ms ease-in-out;
   background-color: white;
   box-shadow: 0.8vmax 0.4vmax 0px 1px rgb(0, 0, 0);
+}
+.wrapper-5 .wrapper-5-content .wrapper-5-button:hover {
+  color: white;
+  background-color: black;
+  transition: 200ms ease-in-out;
+  box-shadow: unset;
 }
 
 .wrapper-6 {
@@ -366,8 +396,14 @@
   font-size: 1.2vmax;
   border: 3px solid #ebabed;
   cursor: pointer;
+  transition: 200ms ease-in-out;
   background-color: white;
   box-shadow: 0.8vmax 0.4vmax 0px 1px rgb(236, 171, 237);
+}
+.wrapper-7 .wrapper-7-button:hover {
+  background-color: #ebabed;
+  transition: 200ms ease-in-out;
+  box-shadow: unset;
 }
 
 footer {
