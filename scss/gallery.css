@@ -11,6 +11,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 0 0 4vmax 0;
 }
 .wrapper-1 .navigation-bar {
   width: 100%;
@@ -53,4 +54,206 @@
   font-size: 3vmax;
   font-weight: 500;
   text-align: center;
+}
+.wrapper-1 .gallery-content {
+  width: 90%;
+  margin-top: 4vmax;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  gap: 2vmax;
+}
+@media screen and (orientation: portrait) {
+  .wrapper-1 .gallery-content {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.wrapper-1 .gallery-content .gallery-box {
+  height: 20vmax;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.wrapper-1 .gallery-content .gallery-box .gallery-box-info {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  transform: scale(0);
+  transition: 100ms ease;
+}
+.wrapper-1 .gallery-content .gallery-box .gallery-box-info a {
+  width: 80%;
+  text-align: center;
+  background-color: unset;
+  text-decoration: none;
+  color: #ebabed;
+  font-size: 1.2vmax;
+}
+.wrapper-1 .gallery-content .gallery-box:hover .gallery-box-info {
+  transform: scale(1);
+}
+.wrapper-1 .gallery-content .img-1 {
+  background-image: url(../assets/img/gallery/thumbnails/img-1.jpg);
+}
+.wrapper-1 .gallery-content .img-2 {
+  background-image: url(../assets/img/gallery/thumbnails/img-2.jpg);
+}
+.wrapper-1 .gallery-content .img-3 {
+  background-image: url(../assets/img/gallery/thumbnails/img-3.jpg);
+}
+.wrapper-1 .gallery-content .img-4 {
+  background-image: url(../assets/img/gallery/thumbnails/img-4.jpg);
+}
+.wrapper-1 .gallery-content .img-5 {
+  background-image: url(../assets/img/gallery/thumbnails/img-5.jpg);
+}
+.wrapper-1 .gallery-content .img-6 {
+  background-image: url(../assets/img/gallery/thumbnails/img-6.jpg);
+}
+.wrapper-1 .gallery-content .img-7 {
+  background-image: url(../assets/img/gallery/thumbnails/img-7.jpg);
+}
+.wrapper-1 .gallery-content .img-8 {
+  background-image: url(../assets/img/gallery/thumbnails/img-8.jpg);
+}
+.wrapper-1 .gallery-content .img-9 {
+  background-image: url(../assets/img/gallery/thumbnails/img-9.jpg);
+}
+.wrapper-1 .gallery-content .img-10 {
+  background-image: url(../assets/img/gallery/thumbnails/img-10.jpg);
+}
+.wrapper-1 .gallery-content .img-11 {
+  background-image: url(../assets/img/gallery/thumbnails/img-11.jpg);
+}
+.wrapper-1 .gallery-content .img-12 {
+  background-image: url(../assets/img/gallery/thumbnails/img-12.jpg);
+}
+.wrapper-1 .gallery-content .img-13 {
+  background-image: url(../assets/img/gallery/thumbnails/img-13.jpg);
+}
+.wrapper-1 .gallery-content .img-14 {
+  background-image: url(../assets/img/gallery/thumbnails/img-14.jpg);
+}
+.wrapper-1 .gallery-content .img-15 {
+  background-image: url(../assets/img/gallery/thumbnails/img-15.jpg);
+}
+.wrapper-1 .gallery-content .img-16 {
+  background-image: url(../assets/img/gallery/thumbnails/img-16.jpg);
+}
+.wrapper-1 .gallery-content .img-17 {
+  background-image: url(../assets/img/gallery/thumbnails/img-17.jpg);
+}
+.wrapper-1 .gallery-content .img-18 {
+  background-image: url(../assets/img/gallery/thumbnails/img-18.jpg);
+}
+.wrapper-1 .gallery-content .img-19 {
+  background-image: url(../assets/img/gallery/thumbnails/img-19.jpg);
+}
+.wrapper-1 .gallery-content .img-20 {
+  background-image: url(../assets/img/gallery/thumbnails/img-20.jpg);
+}
+.wrapper-1 .gallery-content .img-21 {
+  background-image: url(../assets/img/gallery/thumbnails/img-21.jpg);
+}
+.wrapper-1 .gallery-content .img-22 {
+  background-image: url(../assets/img/gallery/thumbnails/img-22.jpg);
+}
+.wrapper-1 .gallery-content .img-23 {
+  background-image: url(../assets/img/gallery/thumbnails/img-23.jpg);
+}
+.wrapper-1 .gallery-content .img-24 {
+  background-image: url(../assets/img/gallery/thumbnails/img-24.jpg);
+}
+.wrapper-1 .gallery-content .img-25 {
+  background-image: url(../assets/img/gallery/thumbnails/img-25.jpg);
+}
+.wrapper-1 .gallery-content .img-26 {
+  background-image: url(../assets/img/gallery/thumbnails/img-26.jpg);
+}
+.wrapper-1 .gallery-content .img-27 {
+  background-image: url(../assets/img/gallery/thumbnails/img-27.jpg);
+}
+.wrapper-1 .gallery-content .img-28 {
+  background-image: url(../assets/img/gallery/thumbnails/img-28.jpg);
+}
+.wrapper-1 .gallery-content .img-29 {
+  background-image: url(../assets/img/gallery/thumbnails/img-29.jpg);
+}
+.wrapper-1 .gallery-content .img-30 {
+  background-image: url(../assets/img/gallery/thumbnails/img-30.jpg);
+}
+.wrapper-1 .gallery-content .img-31 {
+  background-image: url(../assets/img/gallery/thumbnails/img-31.jpg);
+}
+.wrapper-1 .gallery-content .img-32 {
+  background-image: url(../assets/img/gallery/thumbnails/img-32.jpg);
+}
+
+.img-window {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 800;
+}
+.img-window img {
+  max-height: 80vh;
+  max-width: 80vw;
+}
+@media screen and (orientation: portrait) {
+  .img-window img {
+    max-width: 75vw;
+  }
+}
+@media screen and (orientation: portrait) and (max-width: 450px) {
+  .img-window img {
+    max-width: 70vw;
+  }
+}
+
+.gallery-next-btn {
+  display: block;
+  width: 3vmax;
+  height: 3vmax;
+  position: fixed;
+  top: 50%;
+  margin-top: -1.5vmax;
+  background-color: unset;
+  z-index: 900;
+  border: none;
+  transform: rotate(270deg);
+  background-image: url(../assets/img/icons/arrow-icon-2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.gallery-prev-btn {
+  display: block;
+  width: 3vmax;
+  height: 3vmax;
+  position: fixed;
+  top: 50%;
+  margin-top: -1.5vmax;
+  z-index: 900;
+  background-color: unset;
+  border: none;
+  transform: rotate(90deg);
+  background-image: url(../assets/img/icons/arrow-icon-2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
 }/*# sourceMappingURL=gallery.css.map */
